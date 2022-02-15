@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_astrology">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="40dp"
+            android:paddingEnd="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:paddingBottom="20dp"
+                android:text="Дева"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitEnd"
+                android:src="@drawable/deva" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Стихия: Земля"
+                    android:padding="15dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="15dp"
+                    android:text="Планета: Меркурий"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Камень: Нефрит"
+                    android:padding="15dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="15dp"
+                    android:text="Талисман: Кузнечик"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Цвет: Серебряный"
+                    android:padding="15dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="15dp"
+                    android:text="Цветы: Астры"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Идеальная\nсовместимость:"
+                    android:padding="15dp"
+                    android:paddingEnd="0dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:paddingStart="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="\nРак"
+                    android:padding="15dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="@color/orange_text"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:text="Характеристика Девы"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Главным качеством, присущим представителям этого созвездия, является любовь к порядку и системности."
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:paddingTop="9dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Дева воплощает принцип порядка, победу разума над чувствами, умение видеть целое в деталях. Дева больше других знаков зодиака стремится к совершенству во всем, учится всю жизнь, но также учит и других. Стремление к лучшему заставляет Деву подмечать изъяны во всем, что ее окружает, что требует исправления.\nСлабыми чертами Дев являются склонность к стереотипизации, педантичность и неумение прощать чужие ошибки.\nК сильным чертам представителей знака можно отнести интеллектуальность, последовательность и верность своим идеалам. Девы способны принять важное решение и взять на себя ответственность.\nДеве важно брать паузу, чтобы рассортировать свои впечатления, уложить факты и порядок событий, понять свое отношение к объекту в целом. Дева не умеет пассивно отдыхать. Самый оптимальный вид отдыха — это смена деятельности."
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="Союзы с Девой"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Идеальный партнер для Девы тот, который уверен в себе, способен гарантировать стабильность и благополучие в будущем.\nБольше всего шансов составить идеальную пару с Девой у представителей других земных знаков зодиака – Тельца и Рака. Они, как и Девы, ждут от отношений скорее постоянства и стабильности, нежели урагана страстей. Тельцы помогут Девам стать более чувственными и эмоциональными, а Раки без труда поймут стремление к порядку и организованности, также обладая аналитическим мышлением."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="Трудные отношения"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Самые неудачные союзы у Дев складываются с Рыбами и Овнами. Рыбы, как и Девы, никогда не решаются на первый шаг, пассивны и замкнуты. В результате отношения между представителями этих знаков затухают, еще не успев начаться. Овны же подавляют Дев своим напором, пугают настойчивостью и непредсказуемостью. Но в жизни бывают и исключения, так что дерзайте ;D"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>

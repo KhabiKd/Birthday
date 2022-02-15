@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_astrology"
+    tools:context=".Pages.InterestFactsPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/beggin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Интересные факты о Феврале"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dp"
+            android:text="1) Почему февраль является самым коротким месяцем в году?\nВо время правления Юлия Цезаря было установлено, что чётные месяцы должны длиться 30 дней, а нечётные — 31. Февралю же, который тогда приходился на конец года, необходимое количество суток не досталось. В результате чего этот зимний месяц получил в свое распоряжение лишь 29 дней.\n\n2) А знали ли вы, что люди пытались увеличить колличество дней в феврале?\nВ 1930 году в СССР обсуждалась возможность введения революционного советского календаря, включавшего 30 февраля, но предложение не было принято.\n\n3) Если у нас в феврале - снега, метели и морозы, то в Антарктиде в это время самый разгар короткого лета.\n\n4) Так как февраль - последний месяц зимы, наши предки пытались предсказать какими будут последующая весна и лето. Если февраль будет дождливый, то такими же можно ожидать весну и лето, а если погодливый, то это предвещает засуху."
+            android:fontFamily="serif"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

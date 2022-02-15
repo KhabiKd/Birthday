@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_astrology"
+    tools:context=".Pages.InterestFactsPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/beggin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+                android:text="Интересные факты о Январе"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dp"
+            android:text="1) Самый холодный месяц года на большей части Северного полушария Земли, и самый тёплый месяц года на большей части Южного полушария.\n\n2) Наименьшее число бракосочетаний.\n\n3) По данным переписи населения, Январь стоит на 3265 месте самых популярных женских имен в Соединенных Штатах.\n\n4) Помимо високосного года, январь всегда начинается в тот же день что и октябрь.\n\n5) Это месяц рождения самых терпеливых и выдержанных женщин. В то же время такие женщины могут иметь мужской, стоический характер. Они небудут жаловаться или делиться откровениями, предпочитая гордо и самостоятельно справляться с проблемами."
+            android:fontFamily="serif"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

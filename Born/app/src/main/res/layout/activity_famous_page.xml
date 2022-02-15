@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_astrology"
+    tools:context=".Pages.FamousPage">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Pages.FamousPage"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/famous_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="В разработке"
+            android:textColor="@color/white"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+        </LinearLayout>
+</ScrollView>
+

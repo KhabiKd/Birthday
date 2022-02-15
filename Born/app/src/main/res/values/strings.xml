@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Birthday</string>
+    <string name="text_1">Узнай всё про себя</string>
+    <string name="text_2">по</string>
+    <string name="text_3">Дате Рождения!</string>
+    <string name="text_btn">Выберите Дату</string>
+    <string name="description_ad">Для открытия этого раздела, вам нужно просмотреть рекламу.</string>
+    <string name="textcontinue">Открыть</string>
+
+</resources>

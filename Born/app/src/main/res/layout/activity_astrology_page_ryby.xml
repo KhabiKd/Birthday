@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_astrology">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="40dp"
+            android:paddingEnd="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:paddingBottom="20dp"
+                android:text="Рыбы"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitEnd"
+                android:src="@drawable/ryby" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Стихия: Вода"
+                    android:padding="15dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="15dp"
+                    android:text="Планета: Нептун"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Камень: Лунный камень"
+                    android:padding="15dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="15dp"
+                    android:text="Талисман: Узел"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Цвет: Морская волна"
+                    android:padding="15dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="15dp"
+                    android:text="Цветы: Нарцисс"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Идеальная\nсовместимость:"
+                    android:padding="15dp"
+                    android:paddingEnd="0dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="\nДева"
+                    android:padding="15dp"
+                    android:paddingEnd="0dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="@color/orange_text"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:text="Характеристика Рыб"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Рыбы являются одним из самых противоречивых представителей зодиакального созвездия."
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:paddingTop="9dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Рыбы – мечтатели, живущие в мире собственных иллюзий. Они тонко чувствуют музыку, способны к самопожертвованию и часто действуют интуитивно.\nНе чувствуя любви и поддержки, Рыбы впадают в уныние, уходят в себя и способны оказаться в состоянии тяжелейшей затяжной депрессии.\nРешительность и настойчивость не являются сильными сторонами этого знака. Уклончивость, отсутствие самодисциплины, потакание своим и чужим слабостям, склонность избегать ответственности за свои поступки, а также отсутствие моральных границ, часто приводит Рыб к отрицанию реальности с помощью алкоголя или наркотиков."
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="Союзы с Рыбами"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Благоприятный союз получается у Рыб со спокойными и практичными Тельцами, но союз будет успешен, если в этой паре мужчина будет Телец, а женщина – Рыбы. Мечтательные Раки станут гармоничным спутником для мечтательных Рыб, а уравновешенные Девы – надежным и стабильным вариантом.\nСамый яркий и интересный союз сложится со Скорпионами – Рыбы будут восхищаться деятельным партнером, который при этом не подавляет их своей кипучей энергией.\nПрекрасно поладят между собой две Рыбы, но в браке будет не хватать энергетического заряда."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="Трудные отношения"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Сложные отношения ожидают Рыбу с огненными знаками – Овнами, Близнецами и Львами, которые сделаны совершенно из другого теста.\nКатегорически невозможен союз с Весами и Стрельцами. Но в жизни бывают и исключения, так что дерзайте ;D"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>

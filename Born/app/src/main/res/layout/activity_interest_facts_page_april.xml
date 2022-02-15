@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_astrology"
+    tools:context=".Pages.InterestFactsPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/beggin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Интересные факты об Апреле"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dp"
+            android:text="1) В Северном полушарии Земли является вторым месяцем весны, в Южном — вторым месяцем осени.\n\n2) Апрель начинается в тот же день недели как июль во все годы, и как январь в високосные годы. Каждый год заканчивается в тот же день недели, как и декабрь.\n\n3) В Великобритании апрель считается национальным месяцем домашних животных, а также временем, посвященным борьбе с раком.\n\n4) Название апреля происходит от латинского глагола aperire, т.е. «открывать», потому что в этом месяце в Италии именно в апреле начиналась весна и цвели деревья."
+            android:fontFamily="serif"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

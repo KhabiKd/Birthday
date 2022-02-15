@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_astrology"
+    tools:context=".Pages.InterestFactsPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/beggin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Интересные факты о Марте"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dp"
+            android:text="1) В Северном полушарии Земли март является первым месяцем весны, в Южном полушарии — первым месяцем осени.\n\n2) Этот месяц римляне назвали в честь бога войны Марса, который был призван также защищать мирный труд.\n\n3) Слышали ли вы что-нибудь про 0 марта?\nВо избежание вычислений по конкретным годам оно иногда применяется в планировании, а также при разработке программного обеспечения и астрономии."
+            android:fontFamily="serif"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

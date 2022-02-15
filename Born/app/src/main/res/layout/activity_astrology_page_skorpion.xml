@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_astrology">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="40dp"
+            android:paddingEnd="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:paddingBottom="20dp"
+                android:text="Скорпион"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitEnd"
+                android:src="@drawable/scorpion" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Стихия: Вода"
+                    android:padding="15dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="15dp"
+                    android:text="Планета: Плутон"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Камень: Аквамарин"
+                    android:padding="15dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="15dp"
+                    android:text="Талисман: Жук"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Цвет: Черный"
+                    android:padding="15dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="15dp"
+                    android:text="Цветы: Хризантема"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Идеальная\nсовместимость:"
+                    android:padding="15dp"
+                    android:paddingEnd="0dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="\nРак"
+                    android:padding="15dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="@color/orange_text"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:text="Характеристика Скорпиона"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Представители этого знака отличаются темпераментом и харизмой, а также умением легко увлекать окружающих своей идеей."
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:paddingTop="9dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Скорпионы активны и деятельны, легко берутся за новые задачи, хотя и не доводят дело до конца, если оно не приносит им удовольствия или кажется скучным. Рожденный под этим знаком всю жизнь совершенствуется сам и стремится изменить мир к лучшему.\nПротиворечивость и непостоянство – типичные черты представителей этого знака зодиака. Скорпионов часто называют людьми настроения: в течение дня они переживают целый калейдоскоп эмоций, мгновенно переходя от состояния апатии к безудержному веселью или агрессии, а затем вновь становятся покладистыми и спокойными.\nОбычно не зацикливается на недостатках и препятствиях, обращает их себе на пользу. Чтобы заслужить доверие Скорпиона нужно пройти проверку в экстремальной ситуации, доказать преданность."
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="Союзы со Скорпионом"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Идеальной парой для Скорпиона станет представитель созвездия Рыб или Рака. Рыбы – такие же чувственные, но легко уступающие лидерство, станут верными спутниками, способными гасить чрезмерную вспыльчивость своей второй половины. Раки, готовые отдавать больше, чем получать, также подходят Скорпионам, которые будут ценить загадочность и благородство возлюбленного.\nПричем Мужчине-Скорпиону гораздо проще найти себе идеальную пару среди других представителей знака, чем Женщине-Скорпиону. В жизни Скорпиона любовь, секс и страсть занимают одно из важных значений. Для такого человека нужен неординарный, энергичный и эмоциональный партнер. "
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="Трудные отношения"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Сложнее всего Скорпионам будет построить отношения с Овнами, Львами и представителями своего знака. Два прирожденных лидера будут постоянно бороться за власть в паре, что рано или поздно приведет к завершению романа. Ни один не захочет пойти на уступки или покориться. Однако в этих случаях возможен короткий, но яркий и страстный роман. Но в жизни бывают и исключения, так что дерзайте ;D"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>

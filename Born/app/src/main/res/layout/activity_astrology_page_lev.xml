@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_astrology">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="40dp"
+            android:paddingEnd="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:paddingBottom="20dp"
+                android:text="Лев"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitEnd"
+                android:src="@drawable/lev" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Стихия: Огонь"
+                    android:padding="15dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="15dp"
+                    android:text="Планета: Солнце"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Камень: Янтарь"
+                    android:padding="15dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="15dp"
+                    android:text="Талисман: Лев"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Цвет: Золотой"
+                    android:padding="15dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="15dp"
+                    android:text="Цветы: Подсолнух"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:paddingEnd="0dp"
+                    android:text="Идеальная\nсовместимость:"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:padding="15dp"
+                    android:text="\nСтрелец"
+                    android:textColor="@color/orange_text"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:text="Характеристика Льва"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Представители этого знака зодиака – самые колоритные и яркие люди, которыми правят амбиции, гордость и зачастую граничащее с патологическим состоянием самолюбие."
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:paddingTop="9dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Лев обладает даром созидания и настойчивостью в достижении своих целей. Это деятельный человек, стремящийся к успеху и популярности.\nЛев считает, что рядом нет такого человека, который будет достоин критиковать его царственную особу. В выборе друзей у Льва также существуют определенные правила. Обычно в числе знакомых этого огненного человека значатся потенциально полезные люди, либо партнеры по бизнесу.\nБольше всего на свете Львы любят, когда к ним обращаются за советом – быть экспертом в любом вопросе или доверенным лицом – их любимое занятие."
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="Союзы с Львом"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Наилучшие отношения у Львов складываются со знаками, управляемыми стихией Огня, – Львом, Овном и Стрельцом. Для знака огненной стихии важно встретить настоящую любовь — без нее жизнь не будет полноценной. Когда Лев влюбляется, он забывает обо всем на свете, полностью сосредотачивает свое внимание на объекте любви.\nТакже хорошие перспективы в отношениях с Весами – изощренные эстеты Весы и яркие лидеры Львы зачастую создают очень благодатные для обоих союзы. Вероятен союз с абсолютной противоположностью Льва - Водолеями, если последние смогут смириться с ролью ведомого"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="Трудные отношения"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Не удачный союз ждет Льва и Скорпиона и совсем неудачный – с Тельцом: оба являются фиксированными знаками, где правит бал упорство и нежелание уступать.\nТакже сложнее будет построить отношения с Девой и Близнецами, особенно если они не согласятся оказывать должное внимание своему царственному спутнику. Но в жизни бывают и исключения, так что дерзайте ;D"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>

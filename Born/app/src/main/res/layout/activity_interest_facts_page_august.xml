@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_astrology"
+    tools:context=".Pages.InterestFactsPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/beggin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Интересные факты об Августе"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dp"
+            android:text="1) В Южном полушарии Земли является последним месяцем зимы.\n\n2) В невисокосные годы никакой другой месяц не начинается в тот же день недели, как август, в високосные годы в тот же день недели начинается февраль. Каждый год август и ноябрь заканчиваются в тот же день недели.\n\n3) Знали ли вы, что август содержал только 29 дней?\nПервоначально месяц назывался «секстилий» и содержал 29 дней. Юлий Цезарь, реформируя римский календарь, добавил ещё два дня в 45 г. до нашей эры, придав ему современный вид, длиной в 31 день."
+            android:fontFamily="serif"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

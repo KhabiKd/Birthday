@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_astrology">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="40dp"
+            android:paddingEnd="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:paddingBottom="20dp"
+                android:text="Рак"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitEnd"
+                android:src="@drawable/rak" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Стихия: Вода"
+                    android:padding="15dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="15dp"
+                    android:text="Планета: Луна"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Камень: Рубин"
+                    android:padding="15dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="15dp"
+                    android:text="Талисман: Клевер"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Цвет: Белый"
+                    android:padding="15dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="15dp"
+                    android:text="Цветы: Орхидея"
+                    android:fontFamily="serif"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Идеальная\nсовместимость:"
+                    android:padding="15dp"
+                    android:paddingEnd="0dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Телец\nРыбы"
+                    android:padding="15dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="@color/orange_text"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:text="Характеристика Рака"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Рак - четвертый знак зодиакального созвездия. Сложная, загадочная и нелогичная натура."
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:paddingTop="9dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Рак - самый чувствительный знак зодиака, обладающий сильной интуицией. Представители этого зодиакального созвездия болезненно воспринимают критику, не стремятся к публичности и являются эмоционально уязвимыми людьми. Чувства и настроение окружающих Рак понимает мгновенно, но редко откровенен. Проблема с выражением своих чувств связана с защитными психическими механизмами.\nРак — прирожденный психолог, с глубоким пониманием причин явлений, сильным желанием добраться до сути проблемы. Рак проявляет одновременно осторожность и любопытство при встрече с новым явлением или человеком. Осторожность и дальновидность необходимы Раку, чтобы избегать неудач и сохранять самоуважение."
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="Союзы с Раком"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Рак - это единственный знак, способный в той или иной мере найти взаимопонимание со всеми знаками зодиака, но особенное счастье находит с Тельцом, Девой, Козерогом, Скорпионом. Они могут составить очень жизнеспособный деловой союз, многое зависит от личного гороскопа.\nРаки предпочитают сделать первый шаг к сближению, но затем выбирают пассивное ожидание проявлений чувств со стороны партнера. Очень восприимчивы к красоте, любят секс, но застенчивы и ищут настоящие чувства."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="Трудные отношения"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingStart="15dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Самые неудачные союзы - с Овнами, Близнецами, Раками, Стрельцами и Водолеями. Но в жизни бывают и исключения, так что дерзайте ;D"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>
